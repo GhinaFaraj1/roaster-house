@@ -1,0 +1,596 @@
+ body {
+            background-color: #8DAE72;
+            color: #333;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+        /* Additional styling to center the content */
+        .content {
+            padding: 20px;
+            margin-bottom: 50px; /* Add space for the bottom section */
+        }
+
+        /* Navbar Styling */
+           .navbar {
+		    position: sticky;
+            top: 0; /* Sticks the navbar to the top of the viewport */
+            z-index: 1000; /* Ensures the navbar stays on top of other elements */
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: #f5f5dc;
+            padding: 5px 20px;
+            border-radius: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+            margin-top: 20px;
+            border: 5px solid #f5f5dc;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+
+        
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            flex-grow: 1;
+        }
+
+        .nav-links a {
+            margin: 0 80px;
+            text-decoration: none;
+            color: #333;
+            font-size: 20px;
+            transition: color 0.3s ease;
+
+        }
+
+        .nav-links a:hover {
+            color: #007B5E;
+        }
+
+        
+       
+
+        /* Slideshow Styling */
+        .slideshow-container {
+            position: absolute;
+            top: 15%;
+            right: 200px;
+            width: 400px;
+            height: 570px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+        }
+
+        .slideshow-images {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slideshow-images img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Left Text Box Styling (Container around the text) */
+        .left-text-box {
+            position: absolute;
+            top: 150px; /* Position the text box below the navbar */
+            left: 100px; /* Position the text box further to the left */
+            padding: 30px; /* Padding inside the box */
+            max-width: 550px; /* Set a max width for the box */
+            width: 100%; /* Ensure the box takes full width up to 500px */
+        }
+
+        /* Left Text Styling */
+        .left-text {
+            font-size: 50px;
+            font-weight: 700;
+            color: #000;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            line-height: 1.5;
+        }
+
+        /* Paragraph Styling */
+        .left-text p {
+            font-size: 20px;
+            font-weight: 500;
+            color: #000;
+            line-height: 1.4;
+            margin-top: 15px;
+        }
+
+        /* Individual Star Styling */
+        .star {
+            font-size: 70px;
+            color: yellow;
+        }
+
+       
+        .shop-now-button:hover {
+         background-color: #b0835b;
+}
+
+
+        /* Hover effect for the button */
+        .shop-now-button:hover {
+            background-color: #333;
+        }
+
+        /* Coffee Item Section Styling */
+        .coffee-item {
+            background-color: #e2cbb0;
+            border: 4px solid black;
+            padding: 30px;
+            text-align: center;
+            width: 30%;
+            margin: 20px;
+            display: inline-block;
+            vertical-align: top;
+            box-sizing: border-box;
+            border-radius: 20px;
+        }
+
+        .coffee-img {
+            width: 100%;
+            height: auto;
+        }
+
+        .quantity-controls {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        
+
+        .quantity-controls span {
+            margin: 0 10px;
+            font-size: 18px;
+        }
+
+        .add-to-cart {
+            margin-top: 50px;
+        }
+
+        .add-btn {
+            background-color: #000;
+            color: white;
+            border: none;
+            padding: 30px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .add-btn:hover {
+            background-color: #4b3b42;
+        }
+
+        .price {
+            display: block;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        
+        body {
+            background-color: #8DAE72;
+            color: #333;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        /* Additional styling to center the content */
+        .content {
+            padding: 20px;
+            margin-bottom: 50px; /* Add space for the bottom section */
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: #f5f5dc;
+            padding: 5px 20px;
+            border-radius: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            border: 5px solid #f5f5dc;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+       /* Style the logo image */
+        .logo-img {
+         height: 40px; /* Adjust height to fit your design */
+         width: 40px;  /* Maintain aspect ratio */
+}
+
+        .shop-now-button {
+    display: inline-block;
+    background-color: #d4a373; /* Beige glitter color */
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px; /* Smaller font size */
+    padding: 2px 2px; /* Less padding */
+    border-radius: 88px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+    cursor: pointer; /* Add a pointer cursor for better UX */
+}
+
+
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            flex-grow: 1;
+        }
+
+        .nav-links a {
+            margin: 0 80px;
+            text-decoration: none;
+            color: #333;
+            font-size: 20px;
+            transition: color 0.3s ease;
+
+        }
+
+        .nav-links a:hover {
+            color: #007B5E;
+        }
+
+       
+
+        /* Slideshow Styling */
+        .slideshow-container {
+            position: absolute;
+            top: 15%;
+            right: 200px;
+            width: 400px;
+            height: 570px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+        }
+
+        .slideshow-images {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slideshow-images img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Left Text Box Styling (Container around the text) */
+        .left-text-box {
+            position: absolute;
+            top: 150px; /* Position the text box below the navbar */
+            left: 100px; /* Position the text box further to the left */
+            padding: 30px; /* Padding inside the box */
+            max-width: 550px; /* Set a max width for the box */
+            width: 100%; /* Ensure the box takes full width up to 500px */
+        }
+
+        /* Left Text Styling */
+        .left-text {
+            font-size: 50px;
+            font-weight: 700;
+            color: #000;
+			font-family: 'Merriweather', serif;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            line-height: 1.5;
+        }
+
+        /* Paragraph Styling */
+        .left-text p {
+            font-size: 20px;
+            font-weight: 500;
+            color: #000;
+            line-height: 1.4;
+            margin-top: 15px;
+        }
+
+        /* Individual Star Styling */
+        .star {
+            font-size: 70px;
+            color: yellow;
+        }
+
+       
+
+/* Shop Now Button Styling */
+.shop-now-button {
+    display: inline-block; /* Inline-block to respect text alignment */
+    margin: 20px auto 0; /* Center horizontally */
+    padding: 5px 15px; /* Button padding */
+    background-color: black;
+    color: white;
+    font-size: 16px; /* Slightly adjusted font size */
+    font-weight: bold;
+    text-align: center; /* Centers the text inside the button */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Aligns button center below text */
+.left-text-box {
+    text-align: center; /* Centers everything in the box */
+}
+
+.shop-now-button:hover {
+    background-color: #444; /* Hover effect */
+}
+
+
+
+        /* Coffee Item Section Styling */
+        .coffee-item {
+		
+            border: 4px solid black;
+            padding: 10px;
+            text-align: center;
+            width: 20%;
+            margin: 30px;
+            display: inline-block;
+            vertical-align: top;
+            box-sizing: border-box;
+            border-radius: 20px;
+			background-color: #fff; /* Change this to your desired background color */
+
+        }
+
+        .coffee-img {
+            width: 100%;
+            height: auto;
+        }
+
+        .quantity-controls {
+		
+           display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+        }
+
+        .quantity-controls button {
+            background-color: #000;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+		
+		.quantity-controls input {
+        width: 70px; /* Fixed width for the input box */
+        text-align: center; /* Center the value inside the input box */
+        font-size: 18px;
+        border: 1px solid #ccc;
+        padding: 3px;
+        border-radius: 7px;
+        height: 30px; /* Fixed height to match the button height */
+		}
+
+        
+        .add-to-cart {
+            margin-top: 30px;
+        }
+
+        .add-btn {
+            background-color: #000;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .add-btn:hover {
+            background-color: #4b3b42;
+        }
+
+        .price {
+            display: block;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        /* Push the coffee section more down */
+        .coffee-section {
+            margin-top: 700px; /* Increased margin to push it further down */
+            padding-top: 700px;
+        }
+		
+		/* Centering the Title */
+		
+        .section-title {
+        text-align: center; /* Centers the title horizontally */
+        font-size: 28px; /* Adjust font size as needed */
+        margin-bottom: 20px; /* Space below the title */
+        color: #000; /* Ensure the title is visible on the black background */
+		}
+		
+		/* Coffee Section */
+        .coffee-section {
+		    background: linear-gradient(45deg, #f5deb3, #f8e2c5); /* Glitter beige gradient background */
+
+         padding: 20px 0; /* Space above and below the content */
+         width: 100%; /* Ensure the section spans the full width */
+         min-height: 100vh; /* Make sure it fills the screen height */
+         box-sizing: border-box; /* Include padding in height calculation */
+
+}
+
+/* Ensure the body background and layout don't interfere */
+    body {
+    margin: 0; /* Remove body margin to prevent unwanted space */
+    padding: 0; /* Remove body padding */
+}
+
+.about-section {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text for contrast */
+    padding: 50px 0; /* Space above and below the section */
+    display: flex; /* Ensure the section behaves as a flex container */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+.about-content {
+    display: flex; /* Split the content into two parts */
+    max-width: 1200px; /* Limit the width of the section */
+    width: 90%; /* Make the section responsive */
+    gap: 20px; /* Add spacing between the text and image */
+}
+
+.about-text {
+    flex: 1; /* Take up half the width */
+    padding-right: 20px; /* Add space between text and image */
+}
+
+.about-text h2 {
+    font-size: 36px; /* Large heading */
+    margin-bottom: 20px; /* Space below the heading */
+    font-weight: bold;
+}
+
+.about-text p {
+    font-size: 18px; /* Readable font size */
+    line-height: 1.6; /* Improve text readability */
+    margin-bottom: 15px; /* Space between paragraphs */
+}
+
+.about-image {
+    flex: 1; /* Take up half the width */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+}
+
+.about-image img {
+    max-width: 100%; /* Make the image responsive */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3); /* Optional: Add a subtle shadow */
+}
+
+/* Contact Us Section Styling */
+.contact-us-section {
+    background-color: #ffffff; /* White background */
+    padding: 100px 20px; /* Add padding for spacing */
+    text-align: center; /* Center the content */
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333; /* Darker title for contrast */
+}
+
+.contact-form {
+    background: linear-gradient(45deg, #f5deb3, #f8e2c5); /* Glitter beige background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    padding: 30px;
+    width: 100%;
+    max-width: 500px; /* Restrict max width */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.contact-form label {
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #007b5e; /* Highlight input on focus */
+    outline: none;
+}
+
+.contact-form .submit-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Full width for the button */
+}
+
+.contact-form .submit-button:hover {
+    background-color: #333; /* Darker background on hover */
+}
+
+.nav-icons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.cart-link {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    margin-left: 15px;
+}
+
+.cart-link i {
+    margin-right: 5px;
+    font-size: 24px; /* Adjust icon size */
+}
+
+#cart-count {
+    font-size: 18px;
+    color: #000; /* Adjust text color */
+    font-weight: bold;
+}
